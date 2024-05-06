@@ -1,0 +1,12 @@
+C:\Users\Леново\Downloads\Exam-Preparation-2-Resources\Exam-Preparation-2-Resources\03-ToDo-Resources\TestApp\bin\Debug\net6.0\TestApp.deps.json
+C:\Users\Леново\Downloads\Exam-Preparation-2-Resources\Exam-Preparation-2-Resources\03-ToDo-Resources\TestApp\bin\Debug\net6.0\TestApp.dll
+C:\Users\Леново\Downloads\Exam-Preparation-2-Resources\Exam-Preparation-2-Resources\03-ToDo-Resources\TestApp\bin\Debug\net6.0\TestApp.pdb
+C:\Users\Леново\Downloads\Exam-Preparation-2-Resources\Exam-Preparation-2-Resources\03-ToDo-Resources\TestApp\obj\Debug\net6.0\TestApp.csproj.AssemblyReference.cache
+C:\Users\Леново\Downloads\Exam-Preparation-2-Resources\Exam-Preparation-2-Resources\03-ToDo-Resources\TestApp\obj\Debug\net6.0\TestApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Леново\Downloads\Exam-Preparation-2-Resources\Exam-Preparation-2-Resources\03-ToDo-Resources\TestApp\obj\Debug\net6.0\TestApp.AssemblyInfoInputs.cache
+C:\Users\Леново\Downloads\Exam-Preparation-2-Resources\Exam-Preparation-2-Resources\03-ToDo-Resources\TestApp\obj\Debug\net6.0\TestApp.AssemblyInfo.cs
+C:\Users\Леново\Downloads\Exam-Preparation-2-Resources\Exam-Preparation-2-Resources\03-ToDo-Resources\TestApp\obj\Debug\net6.0\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\Леново\Downloads\Exam-Preparation-2-Resources\Exam-Preparation-2-Resources\03-ToDo-Resources\TestApp\obj\Debug\net6.0\TestApp.dll
+C:\Users\Леново\Downloads\Exam-Preparation-2-Resources\Exam-Preparation-2-Resources\03-ToDo-Resources\TestApp\obj\Debug\net6.0\refint\TestApp.dll
+C:\Users\Леново\Downloads\Exam-Preparation-2-Resources\Exam-Preparation-2-Resources\03-ToDo-Resources\TestApp\obj\Debug\net6.0\TestApp.pdb
+C:\Users\Леново\Downloads\Exam-Preparation-2-Resources\Exam-Preparation-2-Resources\03-ToDo-Resources\TestApp\obj\Debug\net6.0\ref\TestApp.dll

@@ -1,9 +1,0 @@
-extends layout.pug
-
-block head
-  - var pageTitle = 'View Tasks'
-
-block content
-  if tasks.length == 0
-    p The task board is empty.
-  include render-tasks
