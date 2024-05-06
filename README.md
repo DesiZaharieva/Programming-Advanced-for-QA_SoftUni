@@ -1,1 +1,1 @@
-# Programming-Advanced-for-QA_SoftUni
+Important files from the "Programming Advanced for QA" course. Certificate after passing the exam.
