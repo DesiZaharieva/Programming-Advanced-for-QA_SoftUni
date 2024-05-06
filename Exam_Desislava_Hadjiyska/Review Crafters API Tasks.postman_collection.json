@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "46512653-276c-4d5c-badd-9670fd116b73",
+		"name": "Review Crafters API Tasks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28844471",
+		"_collection_link": "https://bold-star-554984.postman.co/workspace/Revue-Crafters-API~319b7593-cdaf-42bc-ba0a-6172994f6a65/collection/28844471-46512653-276c-4d5c-badd-9670fd116b73?action=share&source=collection_link&creator=28844471"
+	},
+	"item": [
+		{
+			"name": "Create a New User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\": \"DesiZaharieva\",\r\n    \"email\": \"desi@exam.com\",\r\n    \"password\": \"123456\",\r\n    \"rePassword\": \"123456\",\r\n    \"acceptedAgreement\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://d2925tksfvgq8c.cloudfront.net/api/User/Create"
+			},
+			"response": []
+		},
+		{
+			"name": "Log In an Existing User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"desi@exam.com\",\r\n    \"password\": \"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://d2925tksfvgq8c.cloudfront.net/api/User/Authentication"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Revue",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKd3RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI2YWYzYjVjOC01N2I4LTQwMWUtOTI2Ni1kNzEyMjY2OTI4MjAiLCJpYXQiOiIwOC8xOS8yMDIzIDA2OjMwOjMwIiwiVXNlcklkIjoiZmU1MTMwM2MtZGU5Yy00MmI2LTgzNGEtMDhkYjlmM2YxZjliIiwiRW1haWwiOiJkZXNpQGV4YW0uY29tIiwiVXNlck5hbWUiOiJEZXNpWmFoYXJpZXZhIiwiZXhwIjoxNjkyNDQ4MjMwLCJpc3MiOiJSZXZ1ZU1ha2VyX0FwcF9Tb2Z0VW5pIiwiYXVkIjoiUmV2dWVNYWtlcl9XZWJBUElfU29mdFVuaSJ9.skRYIPM_qd5zAQ_e25LEiyJUboe-X85G7ZF4QJfCA1I",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Exam App\",\r\n    \"url\": \"https://home.pearsonvue.com/getattachment/Test-owners/Develop/One-stop-shop_316674999.jpg\",\r\n    \"description\": \"Hello\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://d2925tksfvgq8c.cloudfront.net/api/Revue/Create"
+			},
+			"response": []
+		},
+		{
+			"name": "List All Revues",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKd3RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI2YWYzYjVjOC01N2I4LTQwMWUtOTI2Ni1kNzEyMjY2OTI4MjAiLCJpYXQiOiIwOC8xOS8yMDIzIDA2OjMwOjMwIiwiVXNlcklkIjoiZmU1MTMwM2MtZGU5Yy00MmI2LTgzNGEtMDhkYjlmM2YxZjliIiwiRW1haWwiOiJkZXNpQGV4YW0uY29tIiwiVXNlck5hbWUiOiJEZXNpWmFoYXJpZXZhIiwiZXhwIjoxNjkyNDQ4MjMwLCJpc3MiOiJSZXZ1ZU1ha2VyX0FwcF9Tb2Z0VW5pIiwiYXVkIjoiUmV2dWVNYWtlcl9XZWJBUElfU29mdFVuaSJ9.skRYIPM_qd5zAQ_e25LEiyJUboe-X85G7ZF4QJfCA1I",
+						"type": "text"
+					}
+				],
+				"url": "https://d2925tksfvgq8c.cloudfront.net/api/Revue/All"
+			},
+			"response": []
+		},
+		{
+			"name": "Change The Title Of The Revue",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKd3RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI2YWYzYjVjOC01N2I4LTQwMWUtOTI2Ni1kNzEyMjY2OTI4MjAiLCJpYXQiOiIwOC8xOS8yMDIzIDA2OjMwOjMwIiwiVXNlcklkIjoiZmU1MTMwM2MtZGU5Yy00MmI2LTgzNGEtMDhkYjlmM2YxZjliIiwiRW1haWwiOiJkZXNpQGV4YW0uY29tIiwiVXNlck5hbWUiOiJEZXNpWmFoYXJpZXZhIiwiZXhwIjoxNjkyNDQ4MjMwLCJpc3MiOiJSZXZ1ZU1ha2VyX0FwcF9Tb2Z0VW5pIiwiYXVkIjoiUmV2dWVNYWtlcl9XZWJBUElfU29mdFVuaSJ9.skRYIPM_qd5zAQ_e25LEiyJUboe-X85G7ZF4QJfCA1I",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"New\",\r\n    \"url\": \"https://home.pearsonvue.com/getattachment/Test-owners/Develop/One-stop-shop_316674999.jpg\",\r\n    \"description\": \"Hello\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://d2925tksfvgq8c.cloudfront.net/api/Revue/Edit?revueId=587bcb91-df10-469c-c755-08dba000886e",
+					"protocol": "https",
+					"host": [
+						"d2925tksfvgq8c",
+						"cloudfront",
+						"net"
+					],
+					"path": [
+						"api",
+						"Revue",
+						"Edit"
+					],
+					"query": [
+						{
+							"key": "revueId",
+							"value": "587bcb91-df10-469c-c755-08dba000886e"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Existing Revue",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKd3RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI2YWYzYjVjOC01N2I4LTQwMWUtOTI2Ni1kNzEyMjY2OTI4MjAiLCJpYXQiOiIwOC8xOS8yMDIzIDA2OjMwOjMwIiwiVXNlcklkIjoiZmU1MTMwM2MtZGU5Yy00MmI2LTgzNGEtMDhkYjlmM2YxZjliIiwiRW1haWwiOiJkZXNpQGV4YW0uY29tIiwiVXNlck5hbWUiOiJEZXNpWmFoYXJpZXZhIiwiZXhwIjoxNjkyNDQ4MjMwLCJpc3MiOiJSZXZ1ZU1ha2VyX0FwcF9Tb2Z0VW5pIiwiYXVkIjoiUmV2dWVNYWtlcl9XZWJBUElfU29mdFVuaSJ9.skRYIPM_qd5zAQ_e25LEiyJUboe-X85G7ZF4QJfCA1I",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://d2925tksfvgq8c.cloudfront.net/api/Revue/Delete?revueId=587bcb91-df10-469c-c755-08dba000886e",
+					"protocol": "https",
+					"host": [
+						"d2925tksfvgq8c",
+						"cloudfront",
+						"net"
+					],
+					"path": [
+						"api",
+						"Revue",
+						"Delete"
+					],
+					"query": [
+						{
+							"key": "revueId",
+							"value": "587bcb91-df10-469c-c755-08dba000886e"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
